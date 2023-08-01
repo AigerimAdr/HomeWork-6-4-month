@@ -1,0 +1,27 @@
+button {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(123, 235, 235);
+    border: none;
+    border-radius: 5px;
+}
+
+.slide-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
