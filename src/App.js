@@ -1,28 +1,6 @@
 import { useState } from 'react';
+import { slideImg } from './slide-img.js'
 import './slide.css'
-
-const slideImg = [
-  {
-    imageUrl: "/img/pic-1.jpg",
-    alt: "pic-1",
-  },
-  {
-    imageUrl: "/img/pic-2.jpg",
-    alt: "pic-2",
-  },
-  {
-    imageUrl: "/img/pic-3.jpg",
-    alt: "pic-3",
-  },
-  {
-    imageUrl: "/img/pic-4.jpg",
-    alt: "pic-4",
-  },
-  {
-    imageUrl: "/img/pic-5.jpg",
-    alt: "pic-5",
-  }
-];
 
 
 const Slider = () => {
