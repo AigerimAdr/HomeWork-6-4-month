@@ -24,23 +24,22 @@ const slideImg = [
   }
 ];
 
-export default function Gallery() {
+
+const Slider = () => {
   const [index, setIndex] = useState(0);
   const hasNext = index < slideImg.length - 1;
   const hasPrev = index > 0;
 
-  function handleNextClick() {
+  const handleNextClick = () => {
     if (hasNext) {
       setIndex(index + 1);
     } 
   }
 
-  function handlePrevClick() {
+  const handlePrevClick = () => {
     if (hasPrev) {
       setIndex(index - 1);
-    } else {
-      setIndex(0);
-    }
+    } 
   } 
 
   let slide = slideImg[index];
@@ -63,3 +62,5 @@ export default function Gallery() {
     </div>
   );
 }
+
+export default Slider
